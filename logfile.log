@@ -1,0 +1,40 @@
+2022-11-04 11:52:50,938 INFO  [Log] null is Successfull! 
+2022-11-04 11:53:08,253 INFO  [Log] null is Successfull! 
+2022-11-04 11:53:08,825 INFO  [Log] null is Successfull! 
+2022-11-04 11:53:28,917 INFO  [Log] null is Successfull! 
+2022-11-04 11:53:42,473 INFO  [Log] null is Successfull! 
+2022-11-04 11:53:52,656 INFO  [Log] null is Successfull! 
+2022-11-04 11:53:57,963 INFO  [Log] null is Successfull! 
+2022-11-04 11:54:08,157 INFO  [Log] null is Successfull! 
+2022-11-04 11:57:28,268 INFO  [Log] null is Successfull! 
+2022-11-04 11:57:44,195 INFO  [Log] null is Successfull! 
+2022-11-04 11:57:46,393 INFO  [Log] null is Successfull! 
+2022-11-04 11:57:46,891 INFO  [Log] null is Successfull! 
+2022-11-04 11:57:47,280 INFO  [Log] null is Successfull! 
+2022-11-04 11:58:00,908 INFO  [Log] null is Successfull! 
+2022-11-04 11:58:31,999 INFO  [Log] null is Successfull! 
+2022-11-04 11:58:42,148 INFO  [Log] null is Successfull! 
+2022-11-04 12:00:34,110 INFO  [Log] homePageTests is Successfull! 
+2022-11-04 12:00:49,883 INFO  [Log] productsPageTests is Successfull! 
+2022-11-04 12:00:52,754 INFO  [Log] productDetailPageTests is Successfull! 
+2022-11-04 12:00:53,829 INFO  [Log] basketPageTests is Successfull! 
+2022-11-04 12:00:55,306 INFO  [Log] homePageTests is Successfull! 
+2022-11-04 12:01:09,343 INFO  [Log] productsPageTests is Successfull! 
+2022-11-04 12:01:40,887 INFO  [Log] productDetailPageTests is Successfull! 
+2022-11-04 12:01:51,030 INFO  [Log] basketPageTests is Successfull! 
+2022-11-04 18:41:54,921 INFO  [Log] homePageTests is Successfull! 
+2022-11-04 18:42:13,190 INFO  [Log] productsPageTests is Successfull! 
+2022-11-04 18:42:16,630 INFO  [Log] homePageTests is Successfull! 
+2022-11-04 18:42:41,051 INFO  [Log] productsPageTests is Successfull! 
+2022-11-04 18:42:53,727 INFO  [Log] productDetailPageTests is Successfull! 
+2022-11-04 18:43:13,856 ERROR [Log] basketPageTests is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"#basket\-item\-count"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4eb9aa7229f8fa28bf89fbef188a79f, findElement {using=id, value=basket-item-count}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51420}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51420/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4eb9aa7229f8fa28bf89fbef188a79f 
+2022-11-04 18:43:14,146 INFO  [Log] productDetailPageTests is Successfull! 
+2022-11-04 18:43:24,285 INFO  [Log] basketPageTests is Successfull! 

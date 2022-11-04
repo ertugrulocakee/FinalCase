@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Web Suite" preserve-order="true" parallel="tests" thread-count="2">
+
+    <listeners>
+
+    <listener class-name="LogResults.TestResultLogger"></listener>
+        
+    </listeners>
+
+
+    <test name="Chrome Tests">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+
+            <class name="Tests.AddProductToBasketWithoutAuth">
+
+                <methods>
+
+                    <include name="homePageTests"></include>
+                    <include name="productsPageTests"></include>
+                    <include name="productDetailPageTests"></include>
+                    <include name="basketPageTests"></include>
+
+                </methods>
+
+            </class>
+
+
+        </classes>
+    </test>
+
+
+    <test name="Edge test">
+        <parameter name="browser" value="Edge"/>
+        <classes>
+
+            <class name="Tests.AddProductToBasketWithAuth">
+
+                <methods>
+
+                    <include name="homePageTests"></include>
+                    <include name="productsPageTests"></include>
+                    <include name="productDetailPageTests"></include>
+                    <include name="basketPageTests"></include>
+
+
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+
+</suite>
